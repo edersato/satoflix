@@ -13,7 +13,7 @@ const PaginaErro = () => (<div>
   <h1>Ah não, sua página foi raptada pelo Kahl Uork</h1>
   <h2>Enquanto você espera, ajude Hipsta a encontrar seu livro de poções e quem sabe, sua página</h2>
   
-  <iframe src="https://editor.p5js.org/Eder_Sato/embed/SYVpVFLIz"></iframe>
+  <iframe height="600px" width="800px" src="https://editor.p5js.org/Eder_Sato/embed/SYVpVFLIz"></iframe>
 </div>);
 
 ReactDOM.render(
