@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": ".Brazilidades",
+            "descricao": "O melhor do Brasil",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 2,
+            "nome": ".Rock",
+            "descricao": "Rock paulera (ou não)",
+            "cor": "#cbd1ff"
+        }
+    ]
+}
