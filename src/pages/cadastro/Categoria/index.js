@@ -31,8 +31,7 @@ function CadastroCategoria() {
 
 
   useEffect(() => {
-    console.log('AAAAAAAAAAAAAAAAAAAAAAAA');
-    const URL = 'http://localhost:8080/categorias';
+    const URL = 'https://satoflix.herokuapp.com/categorias';
     fetch(URL)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
