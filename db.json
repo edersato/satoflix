@@ -9,8 +9,26 @@
         {
             "id": 2,
             "nome": ".Rock",
-            "descricao": "Rock paulera (ou não)",
+            "descricao": "Uma seleção de bandas de rock",
             "cor": "#cbd1ff"
-        }
+        },
+        {
+            "id": 2,
+            "nome": ".PopToLife",
+            "descricao": "Um pouco de Pop para dançar e descontrair",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 2,
+            "nome": ".RapBrazil",
+            "descricao": "Rap Nacional que diz o que precisa ser dito",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 2,
+            "nome": ".MusicRoundWorld",
+            "descricao": "O que o mundo produz e fica escondido no país",
+            "cor": "#cbd1ff"
+        },
     ]
 }
