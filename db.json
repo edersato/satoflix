@@ -1,34 +1,251 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "nome": ".Brazilidades",
-            "descricao": "O melhor do Brasil",
-            "cor": "#cbd1ff"
-        },
-        {
-            "id": 2,
-            "nome": ".Rock",
-            "descricao": "Uma seleção de bandas de rock",
-            "cor": "#cbd1ff"
-        },
-        {
-            "id": 3,
-            "nome": ".PopToLife",
-            "descricao": "Um pouco de Pop para dançar e descontrair",
-            "cor": "#cbd1ff"
-        },
-        {
-            "id": 4,
-            "nome": ".RapBrazil",
-            "descricao": "Rap Nacional que diz o que precisa ser dito",
-            "cor": "#cbd1ff"
-        },
-        {
-            "id": 5,
-            "nome": ".MusicRoundWorld",
-            "descricao": "O que o mundo produz e fica escondido no país",
-            "cor": "#cbd1ff"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": ".Brazilidades",
+      "cor": "#45e1b9",
+      "link_extra": {
+        "text": "Uma coletânea do melhor do Brasil fora do Mainstream",
+        "url": "https://open.spotify.com/playlist/68PebyHvRQyBr4zrmLBYL2?si=Ch3dye7EQd63dlOY8gdosQ"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": ".Rock",
+      "cor": "#147a2b",
+      "link_extra": {
+        "text": "Uma seleção de bandas de Rock",
+        "url": "https://open.spotify.com/playlist/1YRxD1sQxSZWFKSimMcD45?si=0cf539eVQUSmBtjK1orNRg"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": ".PopToLife",
+      "cor": "#9dcf1f",
+      "link_extra": {
+        "text": "Um pouco de Pop pra dançar e descontrair",
+        "url": "https://open.spotify.com/playlist/74TPTV3UC2e7zNmUNCAYR2?si=6V27LfBZTUek_nZ7Hg9VCg"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": ".RapBrazil",
+      "cor": "#c9590e",
+      "link_extra": {
+        "text": "Rap nacional, que diz o que precisa ser dito",
+        "url": "https://open.spotify.com/playlist/2je7uFCkJRN2FBYj37Qik7?si=OUGarGw_RpmkhDr_2LHqOg"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": ".MusicRoundWorld",
+      "cor": "#8c0e41",
+      "link_extra": {
+        "text": "O que mundo produz e fica escondido no próprio país",
+        "url": "https://open.spotify.com/playlist/18E8O0kObVQcyfDsNsR3wI?si=FgNCxKEVRbCx87VW-P-5ag"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": ".Podcast",
+      "cor": "#5f21a6",
+      "link_extra": {
+        "text": "Podcasts que todos deveriam ouvir",
+        "url": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Ponto Nulo no Céu",
+      "url": "https://www.youtube.com/watch?v=wfvPJ6Qm9ec"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Tuyo - Vidaloca",
+      "url": "https://www.youtube.com/watch?v=xQ0sBkpQZUU"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Luamarte - Canção com Teu Nome",
+      "url": "https://www.youtube.com/watch?v=S6iebo5Jbgo"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Scatolove - Nada de Bom Acontece de Madrugada",
+      "url": "https://www.youtube.com/watch?v=o9LxeJR9xCc"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Flávia Felício - Mesa Pra Dois",
+      "url": "https://www.youtube.com/watch?v=4p5uVAq1tZk"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Rô - Feira de Quarta-Feira",
+      "url": "https://www.youtube.com/watch?v=upE6np_TqTw"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Hotelo - Lavando Louça",
+      "url": "https://www.youtube.com/watch?v=DoeHXvL_j84"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Machete Bomb - A Ordem é o Samba",
+      "url": "https://www.youtube.com/watch?v=DYe2L1EhvVg"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Bring Me The Horizon",
+      "url": "https://www.youtube.com/watch?v=racmy7Y9P4M"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Cefa",
+      "url": "https://www.youtube.com/watch?v=tmfcuzjb9Tk"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Fresno",
+      "url": "https://www.youtube.com/watch?v=4qjxsBlB-pU"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Incubus",
+      "url": "https://www.youtube.com/watch?v=2dn6gRWaoc0"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "A Day To Remember",
+      "url": "https://www.youtube.com/watch?v=lPDw1QexVy4"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Bruno Mars",
+      "url": "https://www.youtube.com/watch?v=PMivT7MJ41M"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Sia",
+      "url": "https://www.youtube.com/watch?v=kg1BljLu9YY"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "MJ",
+      "url": "https://www.youtube.com/watch?v=Zi_XLOBDo_Y"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Justin Timberlake",
+      "url": "https://www.youtube.com/watch?v=QAnsWtJ9AFk"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Emicida",
+      "url": "https://www.youtube.com/watch?v=PTDgP3BDPIU"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "Rael",
+      "url": "https://www.youtube.com/watch?v=UZoJ6fVbOcQ"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "Rashid",
+      "url": "https://www.youtube.com/watch?v=QSdRzZeQ0Xo"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "Criolo",
+      "url": "https://www.youtube.com/watch?v=9_sNgjSsAQw"
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "Suécia - Viktor Leksell",
+      "url": "https://www.youtube.com/watch?v=5pfp5MgZogs"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "Itália - Luna",
+      "url": "https://www.youtube.com/watch?v=9HmsI_Qyva0"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "Portugal - Fernando Daniel",
+      "url": "https://www.youtube.com/watch?v=jRsl54WqRNA"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "França - Lisandro Cuxi",
+      "url": "https://www.youtube.com/watch?v=wCpfzC1WfYI"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "Argélia/França - Slimane",
+      "url": "https://www.youtube.com/watch?v=Wz86pFtHZqI"
+    },
+    {
+      "id": 27,
+      "categoriaId": 6,
+      "titulo": "Poucas - Cauê Moura",
+      "url": "https://www.youtube.com/watch?v=rQz91rcObJU"
+    },
+    {
+      "id": 28,
+      "categoriaId": 6,
+      "titulo": "Nerdcast - Jovem Nerd",
+      "url": "https://www.youtube.com/watch?v=fJmmezX2-q8"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "GugaCast - Guga Mafra",
+      "url": "https://www.youtube.com/watch?v=03U6u6XEP0I"
+    },
+    {
+      "id": 30,
+      "categoriaId": 6,
+      "titulo": "Troca o Disco",
+      "url": "https://www.youtube.com/watch?v=u_j3I_EGc5w"
+    },
+    {
+      "id": 31,
+      "categoriaId": 6,
+      "titulo": "Pelada Na Net",
+      "url": "https://www.youtube.com/watch?v=_EnBPzWkhao"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=REUXbGaEl94",
+      "categoriaId": 1,
+      "id": 32
+    }
+  ]
 }

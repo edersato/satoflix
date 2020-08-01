@@ -3,35 +3,27 @@ import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
 import Button from '../../../components/Button';
 import FormField from '../../../components/FormField';
+import useForm from '../../../hooks/useForm';
+
 
 function CadastroCategoria() {
   const valoresIniciais = {
     nome: '',
     descricao: '',
     cor: '#45b1e9',
-  }
-  const [categorias, setCategorias] = useState([])
+  };
 
-  const [values, setValues] = useState(valoresIniciais);
+  const { Handler, values, clearForm }= useForm(valoresIniciais);
+
+  const [categorias, setCategorias] = useState([]);
 
 
-  function setValue(chave, values) {
-
-    setValues({
-      ...values,
-      [chave]: values,
-    })
-  }
-
-  function Handler(infoEvento) {
-    setValue(
-      infoEvento.target.getAttribute('name'),
-      infoEvento.target.value);
-  }
 
 
   useEffect(() => {
-    const URL = 'https://satoflix.herokuapp.com/categorias';
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://satoflix.herokuapp.com/categorias';
     fetch(URL)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
@@ -39,25 +31,7 @@ function CadastroCategoria() {
           ...resposta,
         ]);
       });
-}, [
-      // setTimeout(() => {
-      //   setCategorias([
-      //     ...categorias,
-      //     {
-      //       id: 1,
-      //       nome: '.Brazilidades',
-      //       descricao: 'O melhor do Brasil',
-      //       cor: '#cbd1ff'
-      //     },
-      //     {
-      //       id: 2,
-      //       nome: '.Rock',
-      //       descricao: 'Rock paulera',
-      //       cor: '#cbd1ff',
-      //     },
-      //   ]);
-      // }, 4 * 1000)
-  ]);
+    });
 
   return (
     <PageDefault>
@@ -70,7 +44,7 @@ function CadastroCategoria() {
           values
         ])
 
-        setValues(valoresIniciais);
+        clearForm(valoresIniciais);
       }}>
 
         <FormField
@@ -110,8 +84,8 @@ function CadastroCategoria() {
       <ul>
         {categorias.map((categoria) => {
           return (
-            <li key={`${categoria.nome}`}>
-              {categoria.nome}
+            <li key={`${categoria.titulo}`}>
+              {categoria.titulo}
             </li>
           )
         })}
